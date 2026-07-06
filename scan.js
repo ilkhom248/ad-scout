@@ -70,6 +70,67 @@ const KEYWORDS = {
     'minimalist wallet', 'keychain multi tool', 'edc flashlight',
     'key organizer', 'slim card holder', 'titanium pen',
   ],
+  // Блок B — расширенные ниши
+  'car accessories': [
+    'car trunk organizer', 'car seat gap filler', 'magnetic phone mount car',
+    'car interior detailing kit', 'car headrest hook', 'windshield sun shade',
+  ],
+  'sleep': [
+    'sleep mask side sleeper', 'cooling pillowcase', 'knee pillow side sleeper',
+    'anti snoring device', 'white noise machine', 'weighted blanket cooling',
+  ],
+  'home organization': [
+    'vacuum storage bags', 'drawer divider organizer', 'under bed storage',
+    'closet hanging organizer', 'pantry organization bins', 'shoe rack entryway',
+  ],
+  'clothing care': [
+    'fabric shaver', 'shoe cleaning kit sneakers', 'portable garment steamer',
+    'wrinkle release spray', 'shoe crease protector', 'lint remover for clothes',
+  ],
+  'seniors accessibility': [
+    'pill organizer weekly', 'grabber reacher tool', 'jar opener arthritis',
+    'magnifying glasses reading', 'non slip bath mat elderly', 'sock aid device',
+  ],
+  'remote work': [
+    'ring light with stand', 'monitor riser wood', 'blue light blocking glasses',
+    'standing desk mat', 'webcam privacy cover', 'desk organizer set',
+  ],
+  'stress relief': [
+    'acupressure mat', 'fidget ring anxiety', 'weighted lap blanket',
+    'hand massager', 'gratitude journal daily', 'sensory rings adults',
+  ],
+  'couples gifts': [
+    'date night box', 'couples question card game', 'anniversary gift for him',
+    'couples journal', 'star map anniversary', 'long distance relationship gift',
+  ],
+  'eco sustainability': [
+    'reusable paper towels', 'beeswax food wraps', 'silicone food storage bags',
+    'wool dryer balls', 'countertop compost bin', 'reusable produce bags',
+  ],
+  'small repair': [
+    'wall hole repair patch', 'grout pen white', 'furniture touch up marker',
+    'caulk finishing tool', 'tile gap sealer tape', 'wood scratch repair kit',
+  ],
+  'craft diy': [
+    'diamond painting kit', 'candle making kit', 'embroidery starter kit',
+    'punch needle kit', 'paint by numbers adults', 'pottery wheel kit beginner',
+  ],
+  'kids development': [
+    'busy board toddler', 'montessori toys 2 year old', 'learning tower',
+    'water drawing mat', 'sensory toys autism', 'quiet book toddler',
+  ],
+  'dental hygiene': [
+    'tongue scraper', 'teeth whitening kit', 'plaque remover tool',
+    'gum health', 'bad breath solution', 'dental travel kit',
+  ],
+  'hair beard': [
+    'heatless curling rod', 'microfiber hair towel', 'rosemary oil hair',
+    'beard grooming kit', 'satin pillowcase hair', 'scalp scrubber shampoo brush',
+  ],
+  'students study': [
+    'desk lamp study', 'academic planner', 'book stand for reading',
+    'earplugs for studying', 'dorm room essentials', 'desk whiteboard',
+  ],
 };
 
 const argv = process.argv.slice(2);
