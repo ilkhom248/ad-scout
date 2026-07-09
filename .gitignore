@@ -1,3 +1,12 @@
 .env
 data/raw/
 node_modules/
+
+# craft-engine
+outputs/
+logs/*.log
+references/*.png
+references/*.jpg
+references/*.jpeg
+references/*.webp
+references/*.mp4
