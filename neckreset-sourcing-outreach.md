@@ -90,4 +90,35 @@
 
 ---
 
-*Плейсхолдеры к заполнению: `[YOUR NAME]`, `[COMPANY / STORE]`, `[YOUR SHIPPING ADDRESS / COUNTRY]`, `[NUMBER]`. Ни одна цена поставщика в этих текстах не проставлена как факт — всё запрашивается у продавца.*
+## 4. CJ AI ASSISTANT (чат-бот / AI sourcing) — промпт
+
+**Канал:** чат AI-ассистента в интерфейсе CJ (иконка чата / "CJ Bot" / AI Search). Бот отвечает лучше на короткий разговорный запрос, чем на длинную форму. Сначала шли **короткий заход**, потом, если бот просит детали или предлагает не то, — **follow-up**.
+
+### 4a. Короткий заход (первое сообщение боту)
+
+> Hi, I'm looking to source and dropship a specific product: a **cervical neck traction device, rigid "cradle" type** (you lie down, your head rests in it, traction comes from your head's weight).
+>
+> Key requirement: it must have a **mechanically adjustable angle — 2 or 3 fixed positions**. **Not inflatable** (no air pump), and **not** a single fixed-shape soft foam pillow.
+>
+> Can you find this in the CJ catalog, and tell me: available warehouses (US/UK/AU/China), per-order price + shipping, and sample cost? If it's not in the catalog, how do I open a sourcing request for it?
+
+### 4b. Follow-up (если бот предлагает не тот тип или просит уточнить)
+
+> To be precise about what I need vs what I want to avoid:
+>
+> ✅ WANT: rigid cradle / neck stretcher, firm high-density foam OR an ABS/PP frame, with a **user-adjustable angle in 2–3 fixed mechanical positions** (notch / removable insert / ratchet). Under 0.8 kg, no electronics.
+>
+> ❌ AVOID: inflatable air-collar "3-level" devices with a hand pump; single fixed-curve soft foam wedges; over-the-door pulley kits; electric traction machines.
+>
+> Reference products for the correct TYPE (note: most of these are NOT the adjustable version — I need the one that adjusts):
+> - https://medical-solutions.en.made-in-china.com/product/cEkYUVTARrWl/China-Neck-Shoulder-Stretcher-Relaxer-Cervical-Chiropractic-Traction-Device-Massage-Pillow-for-Pain.html
+> - https://www.aliexpress.com/item/1005002944689148.html
+> - https://www.amazon.com/Shoulder-Cervical-Traction-Alignment-Chiropractic/dp/B07QSFJ8S2
+>
+> For any match you find, please give me: (1) per-order unit cost, (2) shipping cost + time to **US, UK, AU**, (3) which warehouses stock it, (4) minimum units to add a **custom branded insert card**, (5) minimum units for **private-label** (logo on product/packaging), (6) **sample** cost + lead time, (7) any **CE/RoHS** docs. Target landed cost ≤ $15/unit; volume ~50–100/month scaling to 500+.
+
+> **Note to the assistant:** please don't substitute an inflatable or a fixed-shape model to "get close" — if only non-adjustable versions exist in the catalog, tell me that directly and open a sourcing request for the adjustable version instead.
+
+---
+
+*Плейсхолдеры к заполнению: `[YOUR NAME]`, `[COMPANY / STORE]`, `[YOUR SHIPPING ADDRESS / COUNTRY]`, `[NUMBER]`. Ни одна цена поставщика в этих текстах не проставлена как факт — всё запрашивается у продавца/ассистента.*
